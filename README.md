@@ -88,6 +88,8 @@ To further improve our model's accuracy, we employed ensembling techniques. Ense
 ## Continuous Tuning and Improvement
 Not satisfied with stopping there, we continued to fine-tune the CamemBERT model and explore various hyperparameter configurations. Through meticulous tuning and optimization, we eventually reached our best accuracy of 0.603. This fine-tuning process involved adjusting learning rates, batch sizes, and other critical parameters to extract the maximum potential from the CamemBERT model.
 
+![Kaggle Competition Result](https://github.com/Niiingleiii/ML-French-Text-Classification/blob/main/images/KaggleResult.jpg)
+
 ## BERT - Conclusion
 Integrating BERT into our project marked a significant leap forward in our efforts to predict the difficulty of French texts accurately. Through careful model selection, fine-tuning, and ensembling, we harnessed the power of BERT's contextual understanding to achieve better results than we had with traditional models alone. Our journey with BERT models, particularly CamemBERT, led us to achieve a best accuracy of 0.603, reflecting the potential of advanced NLP techniques in language learning applications. As we continue to refine and test our models, we are excited about the potential to make meaningful contributions to the field of language learning.
 
