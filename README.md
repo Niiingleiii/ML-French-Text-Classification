@@ -30,6 +30,8 @@ In our search for the best model, we discovered numerous BERT variants available
 - **RoBERTa**: A robustly optimized BERT approach that modifies key hyperparameters and training strategies to improve performance.
 - **CamemBERT**: A BERT model specifically pre-trained on a large French corpus, making it particularly well-suited for our task.
 
+Please see below for graphs of different BERT models we tried over Weights & Biases, an AI developer platform. 
+
 ![Weights and Biases Performance Tracking](https://github.com/Niiingleiii/ML-French-Text-Classification/blob/main/images/Weights%26Biases.jpeg)
 ## Fine-tuning CamemBERT
 
