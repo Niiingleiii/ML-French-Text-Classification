@@ -65,13 +65,14 @@ These experiences raised several questions for us:
 2. **Practical vs. Theoretical Guidance**: How should we reconcile the theoretical teachings of machine learning with the practical challenges and anomalies we encounter?
 3. **Hyperparameter Tuning**: Given the extensive trial-and-error involved in tuning, what strategies can help streamline this process while maintaining model robustness?
 
-# Reflections
+# End of Our Journey - Reflections
 
 Looking back on our journey through this project, we realize how much we have learned and grown. We want to encourage others who might be embarking on a similar path. Start early to give yourself time to experiment, iterate, and learn from mistakes. Don’t be afraid of coding, even if your background is in a different field. We embraced coding despite our Business and Economics backgrounds, and it became a powerful tool in solving complex problems.
 
 Throughout the project, we did our best and stayed committed. We maintained a positive attitude, pushing ourselves without succumbing to stress. Staying positive was crucial; it helped us navigate the challenges and stay motivated.
 
 Initially, we thought this project would be incredibly difficult, especially given our non-technical backgrounds. However, we persevered and achieving an accuracy above 0.6 has been incredibly empowering. This experience has shown us that with determination and effort, we can overcome any challenge. We feel empowered and are excited to continue our journey in machine learning.
+![End of our Journey) (https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/b16aded8-0303-4228-bde3-1f9a2549f7ca.webp)
 
 
 
