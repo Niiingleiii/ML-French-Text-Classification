@@ -23,7 +23,7 @@ We were not very confident at the start, and the fear of failure loomed large. B
 
 To start, we decided to use basic classifier models. This meant diving into the world of Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, and Random Forest. Without a deep understanding of our data, we applied these models directly, hoping to establish a simple baseline. 
 
-## 4.1.Exploring Tokenizers
+### 4.1.Exploring Tokenizers
 For the choice of tokenzier, we turned to TF-IDF (Term Frequency-Inverse Document Frequency, a numerical statistic that reflects the importance of a word in a document relative to a collection of documents) and then a more sophisticated tool, CamemBERT tokenization, a pre-trained language model for French. Despite not fully understanding CamemBERT's complexities, we did not realize it could also function as a classifier and assumed it was solely for tokenization. We used CamemBERT only because we had heard from classmates that BERT-like models were top-notch for text processing. Our initial results, using CamemBERT tokenization and Random Forest classifier, yielded a baseline accuracy of 50%.
 
 ### 4.2.Exploring Advanced Classifiers
