@@ -14,6 +14,38 @@ We were not very confident at the start, and the fear of failure loomed large. B
 
 ![Start of the Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/resized_rotated_image.webp) 
 
+### Leveraging BERT for Improved Accuracy
+
+After experimenting with both basic and advanced models combined with contextual features, the best result we achieved was an accuracy of 0.545. While this was a significant improvement, we aimed for better performance. To achieve this, we decided to explore BERT models.
+
+#### Understanding BERT
+
+BERT, which stands for Bidirectional Encoder Representations from Transformers, is a revolutionary model in the field of natural language processing. Unlike traditional models, BERT is based on transformers, a deep learning architecture where every output element is connected to every input element, and the weightings between them are dynamically calculated based on their connection. This bidirectional approach allows BERT to understand the context of a word based on all of its surrounding words in a sentence, rather than just the words that precede or follow it.
+
+#### Exploring BERT Models
+
+In our search for the best model, we discovered numerous BERT variants available in the Hugging Face community. Each variant offered unique strengths, tailored to different types of text data and tasks. We experimented with several BERT models, including DistilBERT, a smaller and faster version of BERT, and found that CamemBERT, a BERT model specifically trained on French data, worked the best for our task. See below for the performance of various BERT models we tried using the Weights and Biases tool:
+
+- **DistilBERT**: A distilled version of BERT that is faster and smaller but retains much of BERT's performance capabilities.
+- **RoBERTa**: A robustly optimized BERT approach that modifies key hyperparameters and training strategies to improve performance.
+- **CamemBERT**: A BERT model specifically pre-trained on a large French corpus, making it particularly well-suited for our task.
+
+![Weights and Biases Performance Tracking](link_to_performance_graph) *(Placeholder for actual performance graph)*
+
+#### Fine-tuning CamemBERT
+
+Given our relatively small dataset—4,800 original entries plus 7,000 augmented entries—we faced the challenge of fine-tuning the CamemBERT model without overfitting. To address this, we implemented the following strategies:
+
+- **Parameter Reduction**: We reduced the number of parameters in the model to make it more manageable and to prevent overfitting on our limited data.
+- **Layer Freezing**: By freezing some of the layers in the model, we limited the number of parameters that needed to be updated during training. This approach allowed us to retain the pre-trained knowledge from the original CamemBERT model while fine-tuning only the top layers for our specific task.
+
+#### Ensembling for Enhanced Performance
+
+To further improve our model's accuracy, we employed ensembling techniques. Ensembling involves combining the predictions of multiple models to produce a final prediction. This method leverages the strengths of each individual model and can lead to more robust and accurate results. We created an ensemble of several well-performing CamemBERT models, allowing them to "compete" and collaborate in making predictions. This approach helped us achieve higher accuracy by mitigating the weaknesses of any single model.
+
+### Conclusion
+
+Integrating BERT into our project marked a significant leap forward in our efforts to predict the difficulty of French texts accurately. Through careful model selection, fine-tuning, and ensembling, we harnessed the power of BERT's contextual understanding to achieve better results than we had with traditional models alone. This journey into the world of BERT not only improved our model's performance but also deepened our understanding of advanced natural language processing techniques. As we continue to refine and test our models, we are excited about the potential to make meaningful contributions to the field of language learning.
 
 
 
