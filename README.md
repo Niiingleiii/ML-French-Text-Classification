@@ -93,6 +93,16 @@ Not satisfied with stopping there, we continued to fine-tune the CamemBERT model
 ## BERT - Conclusion
 Integrating BERT into our project marked a significant leap forward in our efforts to predict the difficulty of French texts accurately. Through careful model selection, fine-tuning, and ensembling, we harnessed the power of BERT's contextual understanding to achieve better results than we had with traditional models alone. Our journey with BERT models, particularly CamemBERT, led us to achieve a best accuracy of 0.603, reflecting the potential of advanced NLP techniques in language learning applications. As we continue to refine and test our models, we are excited about the potential to make meaningful contributions to the field of language learning.
 
+## Results
+| Metric    | Logistic Regression | KNN      | Decision Tree | Random Forest | Best Model (seed 42) |
+|-----------|---------------------|----------|---------------|---------------|----------------------|
+| Accuracy  | 0.374576            | 0.413559 | 0.589831      | 0.723729      | 0.724576             |
+| Precision | 0.357355            | 0.435093 | 0.590035      | 0.724551      | 0.726683             |
+| Recall    | 0.362858            | 0.407529 | 0.588846      | 0.722428      | 0.724576             |
+| F1        | 0.343414            | 0.399650 | 0.588753      | 0.722390      | 0.724277             |
+
+
+
 # Remaining Questions
 
 Throughout this project, we encountered several challenges and questions that left us pondering the nuances of machine learning theory versus practical application. One of the most prominent issues we faced was overfitting.
