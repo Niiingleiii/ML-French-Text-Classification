@@ -12,11 +12,38 @@ As we delved into this project, we couldn't help but feel a mix of excitement an
 
 We were not very confident at the start, and the fear of failure loomed large. But we decided to face our fears head-on, viewing this as an opportunity to learn and grow. With determination and a shared passion for language learning, we embarked on this journey, ready to tackle each obstacle one step at a time
 
-![Start of the Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/resized_rotated_image.webp))  
+![Start of the Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/resized_rotated_image.webp)) 
 
-# Leveraging BERT for Improved Accuracy
+## Basic Classifier Models
 
-After experimenting with both basic and advanced models combined with contextual features, the best result we achieved was an accuracy of 0.545. While this was a significant improvement, we aimed for better performance. To achieve this, we decided to explore BERT models.
+To start, we decided to use basic classifier models. This meant diving into the world of Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, and Random Forest. Without a deep understanding of our data, we applied these models directly, hoping to establish a simple baseline. Our initial results, using raw data without any preprocessing, yielded a baseline accuracy of 50%.
+
+## Exploring Tokenizers
+We then turned to a more sophisticated tool, CamemBERT tokenization, a pre-trained language model for French. Despite not fully understanding its complexities, we did not realize it could also function as a classifier and assumed it was solely for tokenization. We used CamemBERT only because we had heard from classmates that BERT-like models were top-notch for text processing. We also tried TF-IDF (Term Frequency-Inverse Document Frequency, a numerical statistic that reflects the importance of a word in a document relative to a collection of documents), but it performed worse than CamemBERT.
+
+## Exploring Advanced Classifiers
+
+Seeking better results, we explored more advanced classifiers known for their performance in text classification tasks:
+
+- **LGBMClassifier:** A gradient boosting framework that builds models in a sequential manner to minimize errors.
+- **XGBClassifier:** Another gradient boosting algorithm, focusing on performance and speed.
+- **CatBoostClassifier:** Specifically designed to handle categorical data efficiently and prevent overfitting.
+
+Unfortunately, the performance of these models did not meet our expectations, pushing us to rethink our approach.
+
+## Diving Deeper into Data Input
+
+Realizing that the quality of input data might be the issue, we started reading articles on how to enhance model understanding of language complexity. Inspired by a helpful [Medium article](https://towardsdatascience.com/linguistic-complexity-measures-for-text-nlp-e4bf664bd660), we began cleaning our dataset by removing punctuation and capital letters, and adding basic features like the number of characters and average word length. This small step improved our accuracy to 54.3%, a sign that we were on the right track.
+
+## Adding Complex Features
+
+Encouraged by our progress, we decided to add more complex textual features inspired by an [article](https://www.researchgate.net/publication/363085243_Quantifying_French_Document_Complexity) on quantifying French document complexity. We integrated:
+
+- **Lexical Richness Metrics:** Such as Types-Token Ratio (TTR), Mean Segmental Type-Token Ratio (MSTTR), Moving-Average Type-Token Ratio (MATTR), and Measure of Textual Lexical Diversity (MTLD).
+- **Vocabulary Complexity Metrics:** Assessing the richness and diversity of vocabulary.
+- **Syntactic Complexity Measures:** Including Mean Length of Sentence (MLS), Clauses per Sentence (C/S), Mean Length of Clause (MLC), and T-units.
+- **Part-of-Speech (POS) Features:** Analyzing the grammatical structure.
+- **Readability Scor
 
 ## Understanding BERT
 
