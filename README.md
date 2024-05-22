@@ -39,12 +39,13 @@ Given our relatively small dataset—4,800 original entries plus 7,000 augmented
 - **Layer Freezing**: By freezing some of the layers in the model, we limited the number of parameters that needed to be updated during training. This approach allowed us to retain the pre-trained knowledge from the original CamemBERT model while fine-tuning only the top layers for our specific task.
 
 ## Ensembling for Enhanced Performance
+To further improve our model's accuracy, we employed ensembling techniques. Ensembling involves combining the predictions of multiple models to produce a final prediction. This method leverages the strengths of each individual model and can lead to more robust and accurate results. By creating an ensemble of several well-performing CamemBERT models, we initially achieved an accuracy of 0.601. This approach helped us mitigate the weaknesses of any single model.
 
-To further improve our model's accuracy, we employed ensembling techniques. Ensembling involves combining the predictions of multiple models to produce a final prediction. This method leverages the strengths of each individual model and can lead to more robust and accurate results. We created an ensemble of several well-performing CamemBERT models, allowing them to "compete" and collaborate in making predictions. This approach helped us achieve higher accuracy by mitigating the weaknesses of any single model.
+## Continuous Tuning and Improvement
+Not satisfied with stopping there, we continued to fine-tune the CamemBERT model and explore various hyperparameter configurations. Through meticulous tuning and optimization, we eventually reached our best accuracy of 0.603. This fine-tuning process involved adjusting learning rates, batch sizes, and other critical parameters to extract the maximum potential from the CamemBERT model.
 
-## Conclusion
-
-Integrating BERT into our project marked a significant leap forward in our efforts to predict the difficulty of French texts accurately. Through careful model selection, fine-tuning, and ensembling, we harnessed the power of BERT's contextual understanding to achieve better results than we had with traditional models alone. This journey into the world of BERT not only improved our model's performance but also deepened our understanding of advanced natural language processing techniques. As we continue to refine and test our models, we are excited about the potential to make meaningful contributions to the field of language learning.
+## BERT - Conclusion
+Integrating BERT into our project marked a significant leap forward in our efforts to predict the difficulty of French texts accurately. Through careful model selection, fine-tuning, and ensembling, we harnessed the power of BERT's contextual understanding to achieve better results than we had with traditional models alone. Our journey with BERT models, particularly CamemBERT, led us to achieve a best accuracy of 0.603, reflecting the potential of advanced NLP techniques in language learning applications. As we continue to refine and test our models, we are excited about the potential to make meaningful contributions to the field of language learning.
 
 
 
