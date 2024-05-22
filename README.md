@@ -72,7 +72,8 @@ Looking back on our journey through this project, we realize how much we have le
 Throughout the project, we did our best and stayed committed. We maintained a positive attitude, pushing ourselves without succumbing to stress. Staying positive was crucial; it helped us navigate the challenges and stay motivated.
 
 Initially, we thought this project would be incredibly difficult, especially given our non-technical backgrounds. However, we persevered and achieving an accuracy above 0.6 has been incredibly empowering. This experience has shown us that with determination and effort, we can overcome any challenge. We feel empowered and are excited to continue our journey in machine learning.
-![End of our Journey) (https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/b16aded8-0303-4228-bde3-1f9a2549f7ca.webp)
+
+![End of our Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/b16aded8-0303-4228-bde3-1f9a2549f7ca.webp)
 
 
 
