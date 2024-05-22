@@ -56,6 +56,9 @@ To further improve, we explored data augmentation techniques, which involve gene
 
 Adding 7000 new sentences through word replacement significantly boosted our validation accuracy to 80%. Thrilled, we uploaded our model to Kaggle, only to find a marginal improvement to 54.5% on the test set. This discrepancy between validation and test performance highlighted an overfitting issue, where our model performed well on the training data but poorly on unseen data.
 
+# Leveraging BERT for Improved Accuracy
+
+After experimenting with both basic and advanced models combined with contextual features, the best result we achieved was an accuracy of 0.545. While this was a significant improvement, we aimed for better performance. To achieve this, we decided to explore BERT models.
 
 ## Understanding BERT
 
