@@ -49,6 +49,31 @@ Not satisfied with stopping there, we continued to fine-tune the CamemBERT model
 ## BERT - Conclusion
 Integrating BERT into our project marked a significant leap forward in our efforts to predict the difficulty of French texts accurately. Through careful model selection, fine-tuning, and ensembling, we harnessed the power of BERT's contextual understanding to achieve better results than we had with traditional models alone. Our journey with BERT models, particularly CamemBERT, led us to achieve a best accuracy of 0.603, reflecting the potential of advanced NLP techniques in language learning applications. As we continue to refine and test our models, we are excited about the potential to make meaningful contributions to the field of language learning.
 
+# Remaining Questions
+
+Throughout this project, we encountered several challenges and questions that left us pondering the nuances of machine learning theory versus practical application. One of the most prominent issues we faced was overfitting.
+
+In our experiments, some models yielded exceptionally high accuracy on the training data but failed to generalize well to the validation set. This phenomenon, known as overfitting, occurs when a model learns the noise and details in the training data to the extent that it negatively impacts its performance on new data. Despite our efforts to mitigate overfitting through techniques such as parameter reduction and layer freezing, it was a persistent challenge.
+
+In our machine learning classes, we were taught the importance of finding the best fit—training the model just enough to capture the underlying patterns in the data without learning the noise. The theory emphasizes monitoring the validation loss and stopping the training process when the validation loss starts to increase again, indicating the onset of overfitting. However, in practice, we observed that the relationship between training and validation loss wasn't always straightforward.
+
+For instance, there were instances where a slight increase in validation loss didn't necessarily correlate with a significant drop in model performance on unseen data. On the contrary, some models that exhibited minor overfitting still performed remarkably well on the test set. This observation led us to question the rigidity of theoretical guidelines when applied to real-world data.
+
+These experiences raised several questions for us:
+
+1. **How to Balance Overfitting and Model Performance**: When is it acceptable to allow a model to slightly overfit if it results in better generalization on the test set?
+2. **Practical vs. Theoretical Guidance**: How should we reconcile the theoretical teachings of machine learning with the practical challenges and anomalies we encounter?
+3. **Hyperparameter Tuning**: Given the extensive trial-and-error involved in tuning, what strategies can help streamline this process while maintaining model robustness?
+
+# Reflections
+
+Looking back on our journey through this project, we realize how much we have learned and grown. We want to encourage others who might be embarking on a similar path. Start early to give yourself time to experiment, iterate, and learn from mistakes. Don’t be afraid of coding, even if your background is in a different field. We embraced coding despite our Business and Economics backgrounds, and it became a powerful tool in solving complex problems.
+
+Throughout the project, we did our best and stayed committed. We maintained a positive attitude, pushing ourselves without succumbing to stress. Staying positive was crucial; it helped us navigate the challenges and stay motivated.
+
+Initially, we thought this project would be incredibly difficult, especially given our non-technical backgrounds. However, we persevered and achieving an accuracy above 0.6 has been incredibly empowering. This experience has shown us that with determination and effort, we can overcome any challenge. We feel empowered and are excited to continue our journey in machine learning.
+
+
 
 
 
