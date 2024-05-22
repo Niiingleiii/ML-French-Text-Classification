@@ -16,10 +16,10 @@ We were not very confident at the start, and the fear of failure loomed large. B
 
 ## Basic Classifier Models
 
-To start, we decided to use basic classifier models. This meant diving into the world of Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, and Random Forest. Without a deep understanding of our data, we applied these models directly, hoping to establish a simple baseline. Our initial results, using raw data without any preprocessing, yielded a baseline accuracy of 50%.
+To start, we decided to use basic classifier models. This meant diving into the world of Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, and Random Forest. Without a deep understanding of our data, we applied these models directly, hoping to establish a simple baseline. 
 
 ## Exploring Tokenizers
-We then turned to a more sophisticated tool, CamemBERT tokenization, a pre-trained language model for French. Despite not fully understanding its complexities, we did not realize it could also function as a classifier and assumed it was solely for tokenization. We used CamemBERT only because we had heard from classmates that BERT-like models were top-notch for text processing. We also tried TF-IDF (Term Frequency-Inverse Document Frequency, a numerical statistic that reflects the importance of a word in a document relative to a collection of documents), but it performed worse than CamemBERT.
+For the choice of tokenzier, we turned to TF-IDF (Term Frequency-Inverse Document Frequency, a numerical statistic that reflects the importance of a word in a document relative to a collection of documents) and then a more sophisticated tool, CamemBERT tokenization, a pre-trained language model for French. Despite not fully understanding CamemBERT's complexities, we did not realize it could also function as a classifier and assumed it was solely for tokenization. We used CamemBERT only because we had heard from classmates that BERT-like models were top-notch for text processing. Our initial results, using CamemBERT tokenization and Random Forest classifier, yielded a baseline accuracy of 50%.
 
 ## Exploring Advanced Classifiers
 
@@ -37,7 +37,7 @@ Realizing that the quality of input data might be the issue, we started reading 
 
 ## Adding Complex Features
 
-Encouraged by our progress, we decided to add more complex textual features inspired by an article on quantifying French document complexity. We integrated:
+Encouraged by our progress, we decided to add more complex textual features inspired by an [article](https://www.researchgate.net/publication/363085243_Quantifying_French_Document_Complexity) on quantifying French document complexity. We integrated:
 
 - **Lexical Richness Metrics:** Such as Types-Token Ratio (TTR), Mean Segmental Type-Token Ratio (MSTTR), Moving-Average Type-Token Ratio (MATTR), and Measure of Textual Lexical Diversity (MTLD).
 - **Vocabulary Complexity Metrics:** Assessing the richness and diversity of vocabulary.
