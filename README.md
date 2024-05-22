@@ -1,5 +1,7 @@
 # Machine Learning 101: Our Machine Learning Adventure from Novices to Innovators
-Team Nvidia: Ning Lei, Emily Sun Reed
+Team Nvidia: Ning Lei, Emily Sun Reed 
+Kaggle Competition Rank: 13th/20
+Best Result: 0.603
 
 ## Introduction
 
