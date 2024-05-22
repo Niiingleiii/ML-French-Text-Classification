@@ -86,7 +86,7 @@ Given our relatively small dataset—4,800 original entries plus 7,000 augmented
 To further improve our model's accuracy, we employed ensembling techniques. Ensembling involves combining the predictions of multiple models to produce a final prediction. This method leverages the strengths of each individual model and can lead to more robust and accurate results. By creating an ensemble of several well-performing CamemBERT models, we initially achieved an accuracy of 0.601. This approach helped us mitigate the weaknesses of any single model.
 
 ## Continuous Tuning and Improvement
-Not satisfied with stopping there, we continued to fine-tune the CamemBERT model and explore various hyperparameter configurations. Through meticulous tuning and optimization, we eventually reached our best accuracy of 0.603. This fine-tuning process involved adjusting learning rates, batch sizes, and other critical parameters to extract the maximum potential from the CamemBERT model.
+Not satisfied with stopping there, we continued to fine-tune the CamemBERT model and explore various hyperparameter configurations. Through meticulous tuning and optimization, we eventually reached our best accuracy of 0.603 and ranked 13th among 20 teams. This fine-tuning process involved adjusting learning rates, batch sizes, and other critical parameters to extract the maximum potential from the CamemBERT model.
 
 ![Kaggle Competition Result](https://github.com/Niiingleiii/ML-French-Text-Classification/blob/main/images/KaggleResult.jpg)
 
