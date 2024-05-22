@@ -12,7 +12,7 @@ As we delved into this project, we couldn't help but feel a mix of excitement an
 
 We were not very confident at the start, and the fear of failure loomed large. But we decided to face our fears head-on, viewing this as an opportunity to learn and grow. With determination and a shared passion for language learning, we embarked on this journey, ready to tackle each obstacle one step at a time
 
-![Rotated Image]([https://github.com/yourusername/yourrepository/blob/main/rotated_image.webp](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/81991cf8-d9fb-46a8-b47e-40a357514f6a.webp ))
+![Rotated Image]([https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/81991cf8-d9fb-46a8-b47e-40a357514f6a.webp])
 
 
 
