@@ -37,13 +37,25 @@ Realizing that the quality of input data might be the issue, we started reading 
 
 ## Adding Complex Features
 
-Encouraged by our progress, we decided to add more complex textual features inspired by an [article](https://www.researchgate.net/publication/363085243_Quantifying_French_Document_Complexity) on quantifying French document complexity. We integrated:
+Encouraged by our progress, we decided to add more complex textual features inspired by an article on quantifying French document complexity. We integrated:
 
 - **Lexical Richness Metrics:** Such as Types-Token Ratio (TTR), Mean Segmental Type-Token Ratio (MSTTR), Moving-Average Type-Token Ratio (MATTR), and Measure of Textual Lexical Diversity (MTLD).
 - **Vocabulary Complexity Metrics:** Assessing the richness and diversity of vocabulary.
 - **Syntactic Complexity Measures:** Including Mean Length of Sentence (MLS), Clauses per Sentence (C/S), Mean Length of Clause (MLC), and T-units.
 - **Part-of-Speech (POS) Features:** Analyzing the grammatical structure.
-- **Readability Scor
+- **Readability Scores:** Such as the Kincaid-McCandless (KM) score and BINGUI index.
+
+However, this ambitious addition led to a significant drop in performance. We suspected multicollinearity, where new features overlapped with existing ones, confusing the model. Using Variance Inflation Factor (VIF) analysis, we confirmed high multicollinearity among our features. Simplifying our feature set to include only the number of characters and average length brought our model's performance back to a more reasonable level.
+
+## Data Augmentation
+
+To further improve, we explored data augmentation techniques, which involve generating new data from existing data to enhance the training set. We experimented with:
+
+- **Back Translation:** Translating sentences into another language and then back to French, creating variety without changing the meaning.
+- **Word Replacement:** Replacing words with synonyms to generate diverse sentence structures.
+
+Adding 7000 new sentences through word replacement significantly boosted our validation accuracy to 80%. Thrilled, we uploaded our model to Kaggle, only to find a marginal improvement to 54.5% on the test set. This discrepancy between validation and test performance highlighted an overfitting issue, where our model performed well on the training data but poorly on unseen data.
+
 
 ## Understanding BERT
 
