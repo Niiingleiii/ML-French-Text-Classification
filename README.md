@@ -19,7 +19,8 @@ We were not very confident at the start, and the fear of failure loomed large. B
 
 ![Start of the Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/resized_rotated_image.webp)) 
 
-## 4.Basic Classifier Models
+## 4.Tackling Basics, Tokenization, Advanced Classifiers, and Feature Engineering
+
 
 To start, we decided to use basic classifier models. This meant diving into the world of Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, and Random Forest. Without a deep understanding of our data, we applied these models directly, hoping to establish a simple baseline. 
 
