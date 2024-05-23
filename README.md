@@ -5,6 +5,7 @@ Reed Kaggle Competition Rank: 13th/20
   
 Best Result: 0.603
 
+
 ## 1.Introduction
 
 Hello! We are two passionate students, recent graduates with Bachelor's degrees in Business and Economics. Despite our academic backgrounds, we have always been drawn to the world of technology and language learning. As non-native French speakers, we've experienced firsthand the challenges of finding suitable reading materials that match our proficiency levels. This personal struggle, combined with our curiosity, led us to participate in a Kaggle competition for our machine learning class.
@@ -135,7 +136,7 @@ Throughout the project, we did our best and stayed committed. We maintained a po
 
 Initially, we thought this project would be incredibly difficult, especially given our non-technical backgrounds. However, we persevered and achieving an accuracy above 0.6 has been incredibly empowering. This experience has shown us that with determination and effort, we can overcome any challenge. We feel empowered and are excited to continue our journey in machine learning.
 
-![End of our Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/b16aded8-0303-4228-bde3-1f9a2549f7ca.webp)
+![End of our Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/Nvidia%20Team.webp)
 
 
 
