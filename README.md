@@ -5,7 +5,8 @@ Team Nvidia: Ning Lei, Emily Sun Reed
 - **Kaggle Competition Rank:** 13th/20
 - **Best Result:** 0.603
 - [**Main Colab Notebook**](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/Nvidia_Main_Notebook.ipynb): The main python notebook for this assignment. Note that this main notebook captures the codes of our main models. During the development process, we experimented with many more codes. However, for simplicity, we have not included all the modes in the main notebook. The main notebook focuses on the core models that are central to our project.
-- [**YouTube Video**](https://www.youtube.com/watch?v=g2VQgumq7r4): The Youtube video for this assignment. 
+- [**YouTube Video**](https://www.youtube.com/watch?v=g2VQgumq7r4): The Youtube video for this assignment.
+- [**Streamlit**](link): explain a bit 
 
 ## 1.Introduction
 
