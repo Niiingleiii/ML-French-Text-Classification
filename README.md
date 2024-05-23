@@ -6,7 +6,7 @@ Team Nvidia: Ning Lei, Emily Sun Reed
 - **Best Result:** 0.603
 - [**Main Colab Notebook**](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/Nvidia_Main_Notebook.ipynb): The main python notebook for this assignment. Note that this main notebook captures the codes of our main models. During the development process, we experimented with many more codes. However, for simplicity, we have not included all the modes in the main notebook. The main notebook focuses on the core models that are central to our project.
 - [**YouTube Video**](https://www.youtube.com/watch?v=g2VQgumq7r4): The Youtube video for this assignment.
-- **Streamlit**
+- [**Streamlit**]([https://www.youtube.com/watch?v=g2VQgumq7r4](https://github.com/Niiingleiii/ML-French-Text-Classification/tree/main/streamlit%20files)):
 ![Streamlit](https://github.com/Niiingleiii/ML-French-Text-Classification/blob/main/images/streamlit1.png)![Streamlit](https://github.com/Niiingleiii/ML-French-Text-Classification/blob/main/images/streamlit2.png)
 
 ## 1.Introduction
