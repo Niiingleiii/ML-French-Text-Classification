@@ -4,7 +4,7 @@ Team Nvidia: Ning Lei, Emily Sun Reed
 ## Repository Index: 
 - **Kaggle Competition Rank:** 13th/20
 - **Best Result:** 0.603
-- **Main Colab Notebook**: [Nvidia_Main Notebook](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/Nvidia_Main_Notebook.ipynb), this main notebook captures the codes of our main models. During the development process, we experimented with many more codes. However, for simplicity, we have not included all the modes in the main notebook. The main notebook focuses on the core models that are central to our project.
+- [**Main Colab Notebook**]: (https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/Nvidia_Main_Notebook.ipynb), this main notebook captures the codes of our main models. During the development process, we experimented with many more codes. However, for simplicity, we have not included all the modes in the main notebook. The main notebook focuses on the core models that are central to our project.
 - **YouTube Video:** [Watch the video on YouTube](https://www.youtube.com/watch?v=g2VQgumq7r4) 
 
 
