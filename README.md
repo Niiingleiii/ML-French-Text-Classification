@@ -138,11 +138,12 @@ The Best Model (seed 42) is considered the best because it maintains high metric
 
 The confusion matrix further demonstrates the model's robustness, showing high correct classification rates and relatively low misclassification rates. 
 
-A1 (182 correctly classified, 30 misclassified as A2, etc.): This indicates that the model performs well in correctly identifying A1 instances but has some misclassification errors, especially with A2 and B1.
-A2 (115 correctly classified, 32 misclassified as A1, etc.): The model struggles a bit more here, with a significant number of A2 instances being misclassified as A1 or B1.
-B1 (127 correctly classified, 36 misclassified as A2, etc.): B1 has a substantial number of misclassifications, indicating room for improvement in distinguishing B1 from similar categories.
-B2 (137 correctly classified, some misclassified as B1, C1, etc.): The model shows a high number of correct classifications for B2 but also some confusion with adjacent categories like B1 and C1.
-C1 and C2 (160 and 134 correctly classified, respectively): These categories show strong performance, with high numbers of correct classifications and fewer misclassifications.
+- **A1 (182 correctly classified, 30 misclassified as A2, etc.)**: This indicates that the model performs well in correctly identifying A1 instances but has some misclassification errors, especially with A2 and B1.
+- **A2 (115 correctly classified, 32 misclassified as A1, etc.)**: The model struggles a bit more here, with a significant number of A2 instances being misclassified as A1 or B1.
+- **B1 (127 correctly classified, 36 misclassified as A2, etc.)**: B1 has a substantial number of misclassifications, indicating room for improvement in distinguishing B1 from similar categories.
+- **B2 (137 correctly classified, some misclassified as B1, C1, etc.)**: The model shows a high number of correct classifications for B2 but also some confusion with adjacent categories like B1 and C1.
+- **C1 and C2 (160 and 134 correctly classified, respectively)**: These categories show strong performance, with high numbers of correct classifications and fewer misclassifications.
+
 
 ## 7.Remaining Questions
 
