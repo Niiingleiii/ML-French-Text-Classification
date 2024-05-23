@@ -104,12 +104,35 @@ Not satisfied with stopping there, we continued to fine-tune the CamemBERT model
 Integrating BERT into our project marked a significant leap forward in our efforts to predict the difficulty of French texts accurately. Through careful model selection, fine-tuning, and ensembling, we harnessed the power of BERT's contextual understanding to achieve better results than we had with traditional models alone. Our journey with BERT models, particularly CamemBERT, led us to achieve a best accuracy of 0.603, reflecting the potential of advanced NLP techniques in language learning applications. As we continue to refine and test our models, we are excited about the potential to make meaningful contributions to the field of language learning.
 
 ## 6.Results
-| Metric    | Logistic Regression | KNN      | Decision Tree | Random Forest | Best Model (seed 42) |
-|-----------|---------------------|----------|---------------|---------------|----------------------|
-| Accuracy  | 0.374576            | 0.413559 | 0.589831      | 0.723729      | 0.724576             |
-| Precision | 0.357355            | 0.435093 | 0.590035      | 0.724551      | 0.726683             |
-| Recall    | 0.362858            | 0.407529 | 0.588846      | 0.722428      | 0.724576             |
-| F1        | 0.343414            | 0.399650 | 0.588753      | 0.722390      | 0.724277             |
+| Metric    | Logistic Regression | KNN      | Decision Tree | Random Forest | Random Forest (best parameter) | Extra Trees | LightGBM | XGBoost | Catboost | Best Model (seed 42) |
+|-----------|---------------------|----------|---------------|---------------|-------------------------------|-------------|----------|---------|----------|----------------------|
+| Accuracy  | 0.374576            | 0.413559 | 0.598305      | 0.729661      | 0.742373                      | 0.741525    | 0.704237 | 0.722881| 0.673729 | 0.724576             |
+| Precision | 0.357355            | 0.435093 | 0.598663      | 0.730144      | 0.743800                      | 0.740819    | 0.702897 | 0.721097| 0.672656 | 0.726683             |
+| Recall    | 0.362858            | 0.407529 | 0.596806      | 0.728259      | 0.741678                      | 0.739245    | 0.701322 | 0.720420| 0.670246 | 0.724576             |
+| F1        | 0.343414            | 0.399650 | 0.596925      | 0.727885      | 0.741665                      | 0.739451    | 0.701451 | 0.720414| 0.671055 | 0.724277             |
+
+### Metrics Explanation
+
+1. **Accuracy**: Accuracy is the ratio of correctly predicted instances to the total instances. It is a general measure of the model's performance, indicating how often the model makes correct predictions overall.
+  
+2. **Precision**: Precision measures the accuracy of positive predictions. It is the ratio of true positive predictions to the total positive predictions (true positives + false positives). High precision indicates that the model makes very few false positive errors.
+  
+3. **Recall**: Recall, or sensitivity, measures the model's ability to identify all relevant instances. It is the ratio of true positive predictions to the total actual positives (true positives + false negatives). High recall indicates that the model captures most of the relevant instances, making few false negative errors.
+  
+4. **F1 Score**: The F1 score is the harmonic mean of precision and recall, providing a balance between the two. It is useful for evaluating models where there is an uneven class distribution or when both precision and recall are important.
+
+### Analysis
+
+- **Logistic Regression** and **KNN** have relatively low scores across all metrics, indicating that these simpler models struggle with the task at hand.
+- **Decision Tree** performs better, but still lags behind the more complex models.
+- **Random Forest** and **Random Forest (best parameter)** show significant improvements, with the best parameter version achieving the highest scores in accuracy (0.742373), precision (0.743800), recall (0.741678), and F1 score (0.741665).
+- **Extra Trees**, **LightGBM**, **XGBoost**, and **Catboost** also perform well, with scores close to the best Random Forest model, but they do not consistently outperform it.
+- **Best Model (seed 42)** has comparable scores to these advanced models, with slightly lower metrics but still showing strong overall performance.
+
+### Best Model (seed 42) Performance
+
+The Best Model (seed 42) is considered the best because it maintains high metrics while exhibiting low overfitting, resulting in better performance on the test set. The consistency of the metrics (accuracy, precision, recall, and F1 score) across training and test data indicates that the model generalizes well to unseen data, making it a robust choice for practical applications.
+
 
 ![Confusion Matrix](https://github.com/Niiingleiii/ML-French-Text-Classification/blob/main/images/Confusion_Matrix.png)
 
