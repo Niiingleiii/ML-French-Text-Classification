@@ -157,6 +157,8 @@ In our machine learning classes, we were taught the importance of finding the be
 
 For instance, there were instances where a slight increase in validation loss didn't necessarily correlate with a significant drop in model performance on unseen data. On the contrary, some models that exhibited minor overfitting still performed remarkably well on the test set. This observation led us to question the rigidity of theoretical guidelines when applied to real-world data.
 
+[Overfitting](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/Overfitting.webp)
+
 These experiences raised several questions for us:
 
 1. **How to Balance Overfitting and Model Performance**: When is it acceptable to allow a model to slightly overfit if it results in better generalization on the test set?
