@@ -5,6 +5,7 @@ Kaggle Competition Rank: 13th/20
   
 Best Result: 0.603
 
+[Watch the video on YouTube](https://www.youtube.com/watch?v=g2VQgumq7r4) 
 
 ## 1.Introduction
 
