@@ -8,7 +8,7 @@ Best Result: 0.603
 [Watch the video on YouTube](https://www.youtube.com/watch?v=g2VQgumq7r4) 
 
 
-[Nvidia_Main Notebook](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/Nvidia_Main_Notebook.ipynb
+[Nvidia_Main Notebook](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/Nvidia_Main_Notebook.ipynb)
 ### Note
 This main notebook captures the codes of our main models. During the development process, we experimented with many more codes. However, for simplicity, we have not included all the modes in the main notebook. The main notebook focuses on the core models that are central to our project.
 
