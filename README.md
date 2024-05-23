@@ -7,10 +7,6 @@ Team Nvidia: Ning Lei, Emily Sun Reed
 - [**Main Colab Notebook**](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/Nvidia_Main_Notebook.ipynb): The main python notebook for this assignment. Note that this main notebook captures the codes of our main models. During the development process, we experimented with many more codes. However, for simplicity, we have not included all the modes in the main notebook. The main notebook focuses on the core models that are central to our project.
 - [**YouTube Video**](https://www.youtube.com/watch?v=g2VQgumq7r4): The Youtube video for this assignment. 
 
-
-
-
-
 ## 1.Introduction
 
 Hello! We are two passionate students, recent graduates with Bachelor's degrees in Business and Economics. Despite our academic backgrounds, we have always been drawn to the world of technology and language learning. As non-native French speakers, we've experienced firsthand the challenges of finding suitable reading materials that match our proficiency levels. This personal struggle, combined with our curiosity, led us to participate in a Kaggle competition for our machine learning class.
@@ -25,7 +21,7 @@ As we delved into this project, we couldn't help but feel a mix of excitement an
 
 We were not very confident at the start, and the fear of failure loomed large. But we decided to face our fears head-on, viewing this as an opportunity to learn and grow. With determination and a shared passion for language learning, we embarked on this journey, ready to tackle each obstacle one step at a time
 
-![Start of the Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/resized_rotated_image.webp)) 
+![Start of the Journey](https://raw.githubusercontent.com/Niiingleiii/ML-French-Text-Classification/main/images/resized_rotated_image.webp)
 
 ## 4.Tackling Basics, Tokenization, Advanced Classifiers, and Feature Engineering
 
