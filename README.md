@@ -110,6 +110,7 @@ Integrating BERT into our project marked a significant leap forward in our effor
 | Recall    | 0.362858            | 0.407529 | 0.588846      | 0.722428      | 0.724576             |
 | F1        | 0.343414            | 0.399650 | 0.588753      | 0.722390      | 0.724277             |
 
+![Confusion Matrix](https://github.com/Niiingleiii/ML-French-Text-Classification/blob/main/images/Confusion_Matrix.png)
 
 
 ## 7.Remaining Questions
